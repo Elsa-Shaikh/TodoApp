@@ -1,3 +1,32 @@
+# Todo App
+This is a Todo app built on both the PERN and MERN stacks. You can add, delete, or update todos and display them. Additionally, you can mark todos as done.
+By default, this app is running on the PERN stack backend.
+
+# If you want to run the todo app on the MERN stack backend instead of PERN, there will be some changes required on the frontend that you'll need to enable.
+In the frontend code file, wherever it says "For MongoDB" in a comment, you'll need to uncomment that line, and comment out "For PostgreSQL." This way, your todo application will run on the MERN stack backend.
+
+# The file that needs to be changed will
+Folder component/ShowTodo.js , component/ViewTodos.js
+Folder redux/actions/index.js, redux/reducers/todoReducers.js
+
+Go into the mentioned files, uncomment the changes, and then run it on the MERN stack
+
+# The technologies used in building the todo app are:
+
+# For Backend
+Mongodb
+NodeJS
+ExpressJS
+Mongoose
+Prisma
+PostgreSQL
+
+# For Frontend
+ReactJS
+Material UI
+React Redux
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
